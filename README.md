@@ -1,5 +1,5 @@
 # Maturitní projekt
-## Tereza Hlísna - Saláterie Tesssalt
+## Tereza Hlísna - Saláterie Tessalat
 Tento web je mou maturitní práci z programování. Jde o fiktivní firmu, kterou jsem si vytvořila za účelem tvorby maturitních projektů. 
 
 Webová stránka běží na Processwiru. Tento systém jsem si vybrala z důvodu, že jsem v něm pracovala během studia a je pro mě nejpřehlednější. Při tvorbě svého webu jsem využila jazyk HTML, CSS, PHP a něco málo z JavaScriptu.
