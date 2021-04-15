@@ -69,3 +69,5 @@
 2021-04-14 16:25:10	?	?	User 'tereza' - Error: Session fingerprint changed (IP address or useragent) (IP: 127.0.0.1)
 2021-04-14 17:25:12	tereza	http://salaterie.test/manager/login/?id=1024	Successful login for 'tereza'
 2021-04-14 17:33:27	?	?	User 'tereza' - Error: Session fingerprint changed (IP address or useragent) (IP: 127.0.0.1)
+2021-04-15 07:21:34	tereza	http://salaterie.test/manager/login/	Successful login for 'tereza'
+2021-04-15 11:42:34	tereza	http://salaterie.test/manager/login/	Successful login for 'tereza'

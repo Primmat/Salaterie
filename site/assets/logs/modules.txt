@@ -34,3 +34,11 @@
 2020-12-11 20:38:10	tereza	http://salaterie.test/manager/page/link/?id=1015&modal=1	Saved module 'InputfieldPage' config data
 2020-12-11 20:38:10	tereza	http://salaterie.test/manager/page/link/?id=1015&modal=1	Installed module 'InputfieldPageAutocomplete'
 2020-12-11 20:38:11	tereza	http://salaterie.test/manager/page/link/?id=1015&modal=1	Saved module info caches
+2021-04-15 11:44:22	tereza	http://salaterie.test/manager/module/	Saved module info caches
+2021-04-15 11:44:25	tereza	http://salaterie.test/manager/module/?reset=1	Saved module info caches
+2021-04-15 11:44:33	tereza	http://salaterie.test/manager/module/	Installed module 'ProcessFormBuilder'
+2021-04-15 11:44:33	tereza	http://salaterie.test/manager/module/	Installed module 'InputfieldFormBuilderFile'
+2021-04-15 11:44:33	tereza	http://salaterie.test/manager/module/	Installed module 'FormBuilder'
+2021-04-15 11:44:34	tereza	http://salaterie.test/manager/module/	Saved module info caches
+2021-04-15 11:44:34	tereza	http://salaterie.test/manager/module/edit?name=FormBuilder	Saved module 'FormBuilder' config data
+2021-04-15 11:44:50	tereza	http://salaterie.test/manager/module/edit?name=FormBuilder	Saved module 'FormBuilder' config data
