@@ -385,3 +385,4 @@
 2021-04-14 17:31:31	tereza	http://salaterie.test/cenik/	Compiled file: /site/templates/cenik.php
 2021-04-14 17:31:54	tereza	http://salaterie.test/cenik/	Compiled file: /site/templates/cenik.php
 2021-04-15 11:41:03	tereza	http://salaterie.test/	Maintenance/Copy new version of source file to target file: /site/templates/salaty.php => /site/assets/cache/FileCompiler/site/templates/salaty.php
+2021-04-18 10:02:53	guest	http://salaterie.test/produkty/salaty/	Compiled file: /site/templates/salaty.php

@@ -1,4 +1,4 @@
-<?php include 'includes/hlavicka.php' ; ?>
+<?php include(\ProcessWire\wire('files')->compile('includes/hlavicka.php' ,array('includes'=>true,'namespace'=>true,'modules'=>true,'skipIfNamespace'=>true))); ?>
         
     
 <?php
