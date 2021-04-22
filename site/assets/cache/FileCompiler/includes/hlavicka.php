@@ -7,7 +7,7 @@ $menu = "<div class='menu-pozadi'>";
 $menu .= "<div class='uk-container uk-container-xsmall'>";
 $menu .= "<nav uk-navbar>";
 $menu .= "<div class='uk-navbar-left'>";
-$menu .= "<ul class='uk-navbar-nav'>";
+$menu .= "<ul class='uk-navbar-nav uk-visible@m'>";
 // Smyčka, která mi projde stránky a uloží do menu
 foreach($stranky as $polozka){
    if ($page->id == $polozka->id){
@@ -17,28 +17,51 @@ foreach($stranky as $polozka){
    }
 };
 $menu .= "</ul>";
+$menu .= "<button class='uk-hidden@m uk-button uk-button-default' type='button' uk-toggle='target: #offcanvas-usage'>Menu</button>";
 $menu .= "</div>";
 $menu .= "</nav>";
 $menu .= "</div>";
 $menu .= "</div>";
 
 
+
+?>
+
+<div id="offcanvas-usage" uk-offcanvas>
+<div class=" offcanvas_barva uk-offcanvas-bar">
+<button class="uk-offcanvas-close" type="button" uk-close></button>
+<h3>Menu</h3>
+<ul class='uk-navbar'>
+<?php
+foreach($stranky as $polozka){
+if($page->id == $polozka->id){
+
+    echo "<li class='uk-active polozka_menu '><a href ='$polozka->url'>$polozka->title</a></li>";
+} else {
+    echo "<li><a href ='$polozka->url'>$polozka->title</a></li>";
+}
+
+};
+?>
+</ul>
+</div>
+</div>
+
+
+<?php
 $slider = "";
 foreach($page->obrazky as $o ){
 $slider .= "<li>";
 $slider .= "<img class='slider' src='{$o->url}' alt='slider' uk-cover>";
 $slider .= "</li>";
 };
-
-
-
-
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+       
 		<title><?php echo $page->title; ?></title>
 		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css"/>

@@ -73,3 +73,4 @@
 2021-04-15 11:42:34	tereza	http://salaterie.test/manager/login/	Successful login for 'tereza'
 2021-04-18 10:00:53	?	?	User 'tereza' - Session timed out (session older than 86400 seconds) (IP: 127.0.0.1)
 2021-04-22 06:07:26	tereza	http://salaterie.test/manager/login/	Successful login for 'tereza'
+2021-04-22 10:25:51	?	?	User 'tereza' - Error: Session fingerprint changed (IP address or useragent) (IP: 127.0.0.1)
