@@ -7,8 +7,8 @@
 
 <div class="uk-section uk-section-small pozadi_kontakt">
     <div class="uk-container uk-container-small">
-        <div class="uk-flex uk-flex-center ">
-            <div class='uk-width-1-2 kontakt1'>
+        <div class="uk-flex uk-flex-center">
+            <div class='uk-width-1-2  kontakt1'>
 
 <?php foreach($page->kontakty as $k):?>
                 <div>

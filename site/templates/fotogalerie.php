@@ -10,7 +10,7 @@ $galerie = "<div class='uk-section uk-section-xsmall'>";
 $galerie .= "<div class='uk-container'>";
 $galerie .= "<div class='uk-grid uk-text-center'>";
 foreach($page->image as $i){
-$galerie.= "<div class='uk-width-1-3'>";
+$galerie.= "<div class='uk-width-1-3@m'>";
 $galerie .=" <img class='galery' src='{$i->size(600,500)->url}' alt='obrazek'>";
 $galerie .= "</div>";
 

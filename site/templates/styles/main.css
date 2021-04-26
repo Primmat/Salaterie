@@ -52,6 +52,11 @@ h1{
  
  
 }
+.tlacitko_menu{
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.666);
+}
+
 .nazvy_produktu a{
     text-decoration: none;
 }
@@ -67,8 +72,9 @@ h1{
   
     color:  #2a6538;
     
-   
-   
+}
+.uk-button-default{
+    border-color: rgb(56, 167, 123);
 }
 
 .paticka{

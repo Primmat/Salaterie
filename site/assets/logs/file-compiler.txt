@@ -386,3 +386,15 @@
 2021-04-14 17:31:54	tereza	http://salaterie.test/cenik/	Compiled file: /site/templates/cenik.php
 2021-04-15 11:41:03	tereza	http://salaterie.test/	Maintenance/Copy new version of source file to target file: /site/templates/salaty.php => /site/assets/cache/FileCompiler/site/templates/salaty.php
 2021-04-18 10:02:53	guest	http://salaterie.test/produkty/salaty/	Compiled file: /site/templates/salaty.php
+2021-04-23 06:36:52	guest	http://salaterie.test/produkty/	Compiled file: /site/templates/produkty.php
+2021-04-23 06:37:48	guest	http://salaterie.test/	Compiled file: /site/templates/home.php
+2021-04-23 06:38:01	guest	http://salaterie.test/	Compiled file: /site/templates/home.php
+2021-04-23 06:38:39	guest	http://salaterie.test/	Compiled file: /site/templates/home.php
+2021-04-23 06:38:57	guest	http://salaterie.test/	Compiled file: /site/templates/home.php
+2021-04-23 06:39:34	guest	http://salaterie.test/	Compiled file: /site/templates/home.php
+2021-04-23 06:39:59	guest	http://salaterie.test/	Compiled file: /site/templates/home.php
+2021-04-23 10:42:38	guest	http://salaterie.test/	Compiled file: /site/templates/home.php
+2021-04-24 15:31:28	guest	http://salaterie.test/	Maintenance/Copy new version of source file to target file: /site/templates/fotogalerie.php => /site/assets/cache/FileCompiler/site/templates/fotogalerie.php
+2021-04-24 15:31:28	guest	http://salaterie.test/	Maintenance/Copy new version of source file to target file: /site/templates/kontakt.php => /site/assets/cache/FileCompiler/site/templates/kontakt.php
+2021-04-26 13:14:51	guest	http://salaterie.test/	Compiled file: /site/templates/home.php
+2021-04-26 13:19:15	guest	http://salaterie.test/fotogalerie/	Compiled file: /site/templates/fotogalerie.php

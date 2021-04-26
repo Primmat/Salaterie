@@ -6,7 +6,7 @@ $stranky = $homepage->children->prepend($homepage);
 $menu = "<div class='menu-pozadi'>";
 $menu .= "<div class='uk-container uk-container-xsmall'>";
 $menu .= "<nav uk-navbar>";
-$menu .= "<div class='uk-navbar-left'>";
+$menu .= "<div class='uk-navbar-center'>";
 $menu .= "<ul class='uk-navbar-nav uk-visible@m'>";
 // Smyčka, která mi projde stránky a uloží do menu
 foreach($stranky as $polozka){
@@ -17,7 +17,7 @@ foreach($stranky as $polozka){
    }
 };
 $menu .= "</ul>";
-$menu .= "<button class='uk-hidden@m uk-button uk-button-default' type='button' uk-toggle='target: #offcanvas-usage'>Menu</button>";
+$menu .= "<button class='uk-hidden@m uk-button uk-button-default tlacitko_menu' type='button' uk-toggle='target: #offcanvas-usage'>Menu</button>";
 $menu .= "</div>";
 $menu .= "</nav>";
 $menu .= "</div>";
@@ -31,7 +31,7 @@ $menu .= "</div>";
 <div class=" offcanvas_barva uk-offcanvas-bar">
 <button class="uk-offcanvas-close" type="button" uk-close></button>
 <h3>Menu</h3>
-<ul class='uk-navbar'>
+<ul class='uk-nav'>
 <?php
 foreach($stranky as $polozka){
 if($page->id == $polozka->id){
@@ -61,6 +61,7 @@ $slider .= "</li>";
 <html lang="cs">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device=width, initial-scale=1">
        
 		<title><?php echo $page->title; ?></title>
 		
@@ -83,9 +84,11 @@ $slider .= "</li>";
 <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
 	</head>
 	<body>
+        <div class="uk-section uk-section-xsmall">
 		<div class='uk-flex uk-flex-center'>
 	<?php echo "<img class='logo' src='{$page->logo->url}' alt='obrazek' ?>"; ?>
 	</div>
+    </div>
         <?php echo $menu;?>
 		
 	

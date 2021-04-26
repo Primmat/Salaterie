@@ -12,12 +12,12 @@ $obrazek .= "<div class='uk-container'>";
 $obrazek .= "<div class='uk-grid uk-text-center'>";
 foreach ($page->obrazky_produktu as $o) {
 
-	$obrazek .=  "<div class='uk-width-1-2'>";
+	$obrazek .=  "<div class='uk-width-1-2@m'>";
 	$obrazek .= "<img class='upoutavka_obrazky' src='{$o->size(400, 300)->url}' alt=''>";
 	$obrazek .= "</div>";
 
-	$obrazek .= "<div class='uk-width-1-2'>";
-	$obrazek .= "<div class='odsazeni'>";
+	$obrazek .= "<div class='uk-width-1-2@m'>";
+	$obrazek .= "<div class='odsazeni '>";
 	$obrazek .= "<p class='text'>{$o->description}</p><p class='podtext1'>Správny poměr bílkovin, sacharidů a tuků.</p>";
 	$obrazek .= "</div>";
 	$obrazek .= "</div>";
@@ -32,13 +32,12 @@ $obrazek2 .= "<div class='uk-container'>";
 $obrazek2 .= "<div class='uk-grid uk-text-center'>";
 foreach ($page->image as $p) {
 
-	$obrazek2 .=  "<div class='uk-width-1-2'>";
+	$obrazek2 .=  "<div class='uk-width-1-2@m'>";
 	$obrazek2 .= "<p class='text2'>{$p->description}</p><p class='podtext2'>Zdravá vitamínová bomba v každé limonádě.</p>";
 	$obrazek2 .= "</div>";
 
-	$obrazek2 .= "<div class='uk-width-1-2'>";
+	$obrazek2 .= "<div class='uk-width-1-2@m '>";
 	$obrazek2 .= "<div class='odsazeni'>";
-
 	$obrazek2 .= "<img class='upoutavka_obrazky' src='{$p->size(400, 300)->url}' alt=''>";
 	$obrazek2 .= "</div>";
 	$obrazek2 .= "</div>";
@@ -52,11 +51,11 @@ $obrazek3 .= "<div class='uk-container'>";
 $obrazek3 .= "<div class='uk-grid uk-text-center'>";
 foreach ($page->image2 as $r) {
 
-	$obrazek3 .=  "<div class='uk-width-1-2'>";
+	$obrazek3 .=  "<div class='uk-width-1-2@m'>";
 	$obrazek3 .= "<img class='upoutavka_obrazky' src='{$r->size(400, 300)->url}' alt=''>";
 	$obrazek3 .= "</div>";
 
-	$obrazek3 .= "<div class='uk-width-1-2'>";
+	$obrazek3 .= "<div class='uk-width-1-2@m'>";
 	$obrazek3 .= "<div class='odsazeni'>";
 	$obrazek3 .= "<p class='text'>{$r->description}</p><p class='podtext1'>Smoothie z BIO ovoce zahřeje tě u srdce</p>";
 	$obrazek3 .= "</div>";
@@ -74,8 +73,8 @@ $obrazek3 .= "</div>";
 
 <div class="uk-section uk-section-small barva">
 	<div class="uk-container uk-container-small">
-		<div class="uk-grid">
-			<div class="uk-width-1-3 posun">
+		<div class="uk-grid uk-text-center">
+			<div class="uk-width-1-3@m  posun">
 <h3 class='rychlokontakt_nazev'>Otevírací doba</h3>
 <p>
 	
@@ -90,7 +89,7 @@ $obrazek3 .= "</div>";
 </p>
 
 			</div>
-			<div class="uk-width-1-3">
+			<div class="uk-width-1-3@m ">
 			<h3 class='rychlokontakt_nazev'>Kde nás najdete</h3>
 <p >
 <strong class='rychlokontakt_podnadpis'>Adresa saláterie</strong>
@@ -106,7 +105,7 @@ $obrazek3 .= "</div>";
 
 
 			</div>
-			<div class="uk-width-1-3">
+			<div class="uk-width-1-3@m ">
 			
 			<h3 class='rychlokontakt_nazev'>Kontaktujte nás</h3>
 <p>
